@@ -1,0 +1,9 @@
+dist
+node_modules
+.gitignore
+.prettierignore
+LICENSE
+*.ejs
+yarn.lock
+coverage
+pnpm-lock.yaml

@@ -1,0 +1,54 @@
+{
+  "name": "@single-spa-example/root-config",
+  "version": "1.0.0",
+  "main": "dist/single-spa-example-root-config.js",
+  "author": "Joel Denning <joeldenning@gmail.com>",
+  "scripts": {
+    "start": "webpack serve --port 9000 --env isLocal",
+    "lint": "eslint src",
+    "test": "jest --passWithNoTests",
+    "format": "prettier --write .",
+    "build": "webpack --mode=production",
+    "analyze": "webpack --env analyze"
+  },
+  "piletDependencies": {
+    "react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js",
+    "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@6.6.3/system/es2015/rxjs.min.js",
+    "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@6.6.3/system/es2015/rxjs-operators.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.8.2/lib/system/single-spa.min.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && eslint src"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@types/systemjs": "^6.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.18.0",
+    "eslint-config-important-stuff": "^1.1.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "html-webpack-plugin": "^4.5.1",
+    "husky": "^4.3.8",
+    "jest": "^26.6.1",
+    "jest-cli": "^26.6.1",
+    "piral-cli": "next",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0",
+    "serve": "^11.3.2",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-config-single-spa": "^2.0.0",
+    "webpack-dev-server": "^4.0.0-beta.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "single-spa": "^5.9.1",
+    "single-spa-layout": "^1.4.0"
+  }
+}
