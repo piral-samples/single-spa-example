@@ -1,6 +1,6 @@
 {
   "name": "@single-spa-example/people",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/single-spa-example-people.js",
   "author": "Joel Denning <joeldenning@gmail.com>",
   "scripts": {
@@ -47,7 +47,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "jest-cli": "^26.1.0",
-    "piral-cli": "next",
+    "piral-cli": "0.14.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
     "query-string": "^6.13.8",

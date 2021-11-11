@@ -1,6 +1,6 @@
 {
   "name": "@single-spa-example/styleguide",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/single-spa-example-styleguide.js",
   "author": "Joel Denning <joeldenning@gmail.com>",
   "scripts": {
@@ -44,7 +44,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "jest-cli": "^26.6.3",
-    "piral-cli": "next",
+    "piral-cli": "0.14.0",
     "postcss": "^8.2.4",
     "postcss-loader": "^4.1.0",
     "prettier": "^2.2.1",

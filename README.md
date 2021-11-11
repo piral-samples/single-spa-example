@@ -1,6 +1,12 @@
-# Example: Using the Piral Feed Service for Single SPA Applications
+[![Piral Logo](https://github.com/smapiot/piral/raw/develop/docs/assets/logo.png)](https://piral.io)
 
-This example takes sample code from Single SPA (found here [github.com/react-microfrontends](https://github.com/react-microfrontends)) and uses the Piral Feed Service instead of some customly created and hosted importmap.
+# [Piral Sample](https://piral.io) &middot; [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/smapiot/piral/blob/main/LICENSE) [![Gitter Chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/piral-io/community)
+
+> single-spa using Piral
+
+:zap: Using the Piral Feed Service for single-spa applications
+
+This example takes sample code from single-spa (found here [github.com/react-microfrontends](https://github.com/react-microfrontends)) and uses the Piral Feed Service instead of some customly created and hosted importmap.
 
 **Note**: Originally, all of the directories (or packages) have been in dedicated repositories. This can (and should be!) done here, too, however, for simplicity we kept everything in a single repository (but not a mono repo, just multiple NPM packages in a single repository).
 
@@ -29,7 +35,7 @@ Additionally, the Piral CLI has been installed in the `devDependencies`.
 ```json
 "devDependencies": {
   // ...
-  "piral-cli": "next",
+  "piral-cli": "0.14.0",
 },
 ```
 
@@ -88,3 +94,7 @@ Using a sophisticated and dedicated service for the importmap has some nice adva
 - API keys / publish rights per team (with revocation)
 
 While a self-assembled JSON file is sufficient to get going, a dedicated service allows professionalizing the microfrontend solution.
+
+## License
+
+Piral and this sample code is released using the MIT license. For more information see the [license file](./LICENSE).

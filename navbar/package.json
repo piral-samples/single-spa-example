@@ -1,6 +1,6 @@
 {
   "name": "@single-spa-example/navbar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/single-spa-example-navbar.js",
   "author": "Joel Denning <joeldenning@gmail.com>",
   "scripts": {
@@ -53,7 +53,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "jest-cli": "^26.1.0",
-    "piral-cli": "next",
+    "piral-cli": "0.14.0",
     "postcss-loader": "4.1.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
