@@ -27,6 +27,7 @@ jobs:
       - name: Build Website
         run: |
           cd root-config
+          npm run build
           echo "single-spa.samples.piral.cloud" > dist/CNAME
           cp dist/index.html dist/404.html
           cd ..
