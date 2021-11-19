@@ -10,6 +10,8 @@ This example takes sample code from single-spa (found here [github.com/react-mic
 
 **Note**: Originally, all of the directories (or packages) have been in dedicated repositories. This can (and should be!) done here, too, however, for simplicity we kept everything in a single repository (but not a mono repo, just multiple NPM packages in a single repository).
 
+You can visit this demo at [single-spa.samples.piral.cloud/](https://single-spa.samples.piral.cloud/).
+
 ## Differences
 
 Each microfrontend defines the shared dependencies that appear in the final importmap. In the *package.json* you'll find:
